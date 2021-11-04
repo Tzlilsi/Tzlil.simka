@@ -1,0 +1,22 @@
+* {
+    color :blueviolet;
+    background-color: antiquewhite;
+    font-family: Candara;
+    font-size: 25px;
+}
+
+#Fname {
+    color: aquamarine;
+}
+
+h1{
+    color: black;
+    font-size: 30px ;
+}
+.heading {
+    color: hotpink;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid blueviolet;
+    margin: 10px;
+}
