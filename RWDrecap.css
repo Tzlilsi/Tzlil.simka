@@ -1,0 +1,26 @@
+
+
+
+
+div{
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+
+}
+button {
+    height: 20%;
+    font-size: 40px;
+    background-color: blueviolet;   
+     animation-name:blink ; 
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+}
+
+ @keyframes blink{
+    0%  {background-color:rgb(226, 43, 186);border-radius: 0%;}
+   30% {background-color:cornsilk;border-radius: 50%}
+   80% {background-color:darkcyan;border-radius: 100%}
+   100%  {background-color: blueviolet;border-radius: 0%;}
+
+}
